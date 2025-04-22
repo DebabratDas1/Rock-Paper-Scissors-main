@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a7455200a4eb204c95afe58e4272813, type: 3}
+  m_Name: SomniaNetworkConfig
+  m_EditorClassIdentifier: 
+  network: 2
+  networkName: Somnia Shannon Testnet
+  chainIdString: 50312
+  rpcUrl: https://rpc.ankr.com/somnia_testnet/
+  nativeCurrencyJson: "{\"name\":\"Somnia\",\"symbol\":\"STT\",\"decimals\":18}\r"
+  blockExplorerUrl: https://shannon-explorer.somnia.network/
+  dropERC20ContractAddress: 0x89cD2e2124b48737A220b7cA264b12a461e225d3
+  purchasingTokenContractAddress: 0xD1fC78e743B06F90E2B6A36022763d3E35160E0a
